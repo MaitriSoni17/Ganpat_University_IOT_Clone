@@ -1,0 +1,227 @@
+.background {
+    background: linear-gradient(to bottom, rgba(155, 153, 151, 0.8) 0%, rgba(155, 153, 151, 0.8) 100%), url(imgs/index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.img-logo{
+    height: 70px;
+}
+
+.container-fulid {
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.navbar {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.header_h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+.header_para {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.wel_hr {
+    height: 3px;
+    max-width: 60px;
+    background-color: gray;
+    opacity: 1;
+    border: none;
+}
+
+.text-primary1{
+    color: #21559B;
+}
+.container_h1 {
+    color: #21559B;
+}
+
+.container_hr {
+    height: 3px;
+    max-width: 60px;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 1;
+    border: none;
+}
+
+.container_para {
+    height: 20%;
+    width: 60%;
+    font-size: 15px;
+    color: grey;
+}
+
+.btn {
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #DC3545;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #DC3545;
+}
+
+.btn-primary1 {
+    background-color: #21559B;
+}
+
+.btn-primary1:hover,
+.btn-primary1:active,
+.btn-primary1:focus {
+    background-color: #21559B;
+}
+
+#input {
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+}
+
+td a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: gray;
+}
+
+td a:hover {
+    color: gray;
+}
+
+.bg-color {
+    background-color: #21559B;
+    border-color: white;
+    color: white;
+}
+
+pre {
+    font-size: 18px;
+}
+
+.bg_h2 {
+    background-color: #00979E;
+    color: white;
+}
+
+
+.border {
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    border-width: 20%;
+}
+
+.p_info{
+    visibility: hidden;
+    color: #DC3545;
+}
+.active{
+    visibility: visible;
+}
+
+.carousel{
+    width: 50%;
+}
+
+.bg-primary1{
+    background-color: #21559B;
+}
+
+.background1{
+    background-color: #00979E;
+}
+.info:hover{
+    background-color: #019ca4;
+}
+.carousel-item{
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(155, 153, 151, 0.8) 0%, rgba(155, 153, 151, 0.8) 100%);
+}
+
+.carousel-caption{
+    transform: translateY(-25%);
+    bottom: initial;
+    top: 50%;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="checkbox"]:focus,
+.form-control:focus{   
+  border-color: rgb(195, 194, 194);
+}
+
+/* .card:hover{
+    background-color: rgb(195, 194, 194);
+} */
+
+.counter{
+    color: rgb(255, 187, 0);
+}
+
+.font-weight-bold{
+    color: white;
+}
+i:hover{
+    cursor: pointer;
+}
+.bg-events{
+    background: linear-gradient(to bottom, rgba(200, 198, 196, 0.8) 0%, rgba(197, 194, 191, 0.8) 100%);
+}
+
+.nav-link{
+    color: #21559B;
+}
+
+.nav-link:hover{
+    color: #4974ac;
+}
+
+.bg-danger{
+    background-color: #DC3545;
+    height: 2px;
+    opacity: 1;
+    border: none;
+}
+
+.btn-primary{
+    background-color: #4974ac;
+}
+
+.w{
+    width: 50%;
+}
+
+.bg-color1{
+    background-color: #102d4c;
+}
